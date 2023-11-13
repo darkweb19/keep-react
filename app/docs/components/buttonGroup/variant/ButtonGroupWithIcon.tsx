@@ -12,7 +12,7 @@ const ButtonGroupWithIcon = () => {
           </span>
           Profile
         </Button>
-        <Button type="primary" positionInGroup="middle">
+        <Button type="primary" positionInGroup="middle" customClass="mx-1">
           <span className="pr-2">
             <Gear size={24} />
           </span>

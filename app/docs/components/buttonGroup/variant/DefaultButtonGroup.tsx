@@ -8,7 +8,7 @@ const DefaultButtonGroup = () => {
         <Button type="primary" positionInGroup="start">
           Profile
         </Button>
-        <Button type="primary" positionInGroup="middle">
+        <Button type="primary" positionInGroup="middle" customClass="mx-1">
           Settings
         </Button>
         <Button type="primary" positionInGroup="end">
@@ -27,7 +27,7 @@ export const ButtonGroupComponent = () => {
   return (
     <Button.Group>
       <Button type="primary" positionInGroup="start">Profile</Button>
-      <Button type="primary" positionInGroup="middle">Settings</Button>
+      <Button type="primary" positionInGroup="middle" customClass="mx-1" customClass="mx-1">Settings</Button>
       <Button type="primary" positionInGroup="end">Messages</Button>
     </Button.Group>
   );

@@ -8,7 +8,7 @@ const ButtonGroupWithOnlyIcon = () => {
       <Button type="primary" positionInGroup="start">
         <Cube size={24} />
       </Button>
-      <Button type="primary" positionInGroup="middle">
+      <Button type="primary" positionInGroup="middle" customClass="mx-1">
         <Gear size={24} />
       </Button>
       <Button type="primary" positionInGroup="end">
@@ -29,7 +29,7 @@ export const ButtonGroupComponent = () => {
       <Button type="primary" positionInGroup="start">
         <Cube size={24} />
       </Button>
-      <Button type="primary" positionInGroup="middle">
+      <Button type="primary" positionInGroup="middle" customClass="mx-1">
         <Gear size={24} />
       </Button>
       <Button type="primary" positionInGroup="end">
