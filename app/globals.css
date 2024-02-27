@@ -5,9 +5,10 @@ html {
 }
 
 body {
-  background-color: #f2f5ff;
+  /* background-color: #f2f5ff; */
+  background-color: var(--bg-color);
   font-family: var(--font-inter), sans-serif;
-  @apply bg-white md:bg-primary-25;
+  /* @apply bg-white md:bg-primary-25; */
 }
 
 .hero-text {
@@ -89,4 +90,12 @@ pre::-webkit-scrollbar-thumb {
   border: 1px solid #d7dfe9;
   border-radius: 16px;
   background: #fff;
+}
+
+.dark-theme {
+  --bg-color: #000000;
+}
+
+.light-theme {
+  --bg-color: #f2f5ff;
 }
