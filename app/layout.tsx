@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning className={inter.className}>
+      <body suppressHydrationWarning className={`${inter.className} dark-theme`}>
         <Navbar />
         <main className="relative pt-20">{children}</main>
         <Footer />
